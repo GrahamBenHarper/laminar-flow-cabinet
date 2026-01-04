@@ -3,7 +3,7 @@ This includes a 3D design file created in Blender (`.blend` format) and parts li
 The flow direction is horizontal, meaning the cabinet has a relatively large horizontal profile, but a not very large vertical profile.
 Currently this is a WIP, but the project is posted here for documentation.
 
-!(Laminar Flow Cabinet Design)[laminar_flow_cabinet.png]
+![Laminar Flow Cabinet Design](laminar_flow_cabinet.png)
 
 
 ## Dimensions
