@@ -52,7 +52,7 @@ This can be cut from 2x 4'x8' sheets -- cut each 4'-by-8' sheet to 41.5", 24", a
 
 4x4 boards:
  - 8x 24" 4x4 boards (four supports in front compartment, four supports in rear compartment)
-This can be cut from 2x 10' 4x4 boards (don't recommend 8' since saw blade removes too much material)
+This can be cut from 2x 10' 4x4 boards (don't recommend 8' since saw blade removes too much material; approx 1/8" lost per cut)
 
 
 2x4 boards:
@@ -68,3 +68,21 @@ Two HEPA filters placed in the center of the dividing wall, inside the rear comp
 
 One adjustable speed fan (adjustable is important for tuning the flow properly) placed in the center of the rear wall, inside the rear compartment.
 
+
+## Fan Specs
+The majority of laminar flow hoods utilize a flow rate of around 0.5 m/s, or 1.64 ft/s,
+so we will pick a fan based on this flow rate.
+The 2x HEPA filters I chose were 13.5"-by-11.5", resulting in 2.15 ft^2 of area.
+Therefore, the overall flow rate of the fan should be 3.537 ft^3/s, or 212.2 ft^3/min.
+For the particular company I'm looking at
+ - 8" fan is rated for 428 ft^3/min
+ - 6" fan is rated for 265 ft^3/min
+ - 4" fan is rated for 106 ft^3/min
+
+This means the most appropriate choice is likely the 6" fan.
+If it operates at the full capacity of 265 ft^3/min (assuming no air leaks),
+that's a flow rate of 2.04 ft/s, or 0.62 m/s.
+
+Additionally, the size of the two HEPA filters imposes an optimal size on the acrylic viewing window.
+The exit is 41" wide, so 2.15 ft^2 would require the glass to close at a height of 7.57" in order to have an equal cross-sectional area.
+This will help guarantee the flow is laminar and therefore least likely to experience contamination.
